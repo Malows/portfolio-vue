@@ -1,0 +1,30 @@
+:root {
+    --color-primary: #800000;
+    --color-primary--light: #C52626;
+    --color-primary--lighter: #FF7373;
+    --color-primary--dark: #340000;
+
+    --color-secondary: #4F7700;
+    --color-secondary--light: #86B823;
+    --color-secondary--lighter: #C4F06C;
+    --color-secondary--dark: #203000;
+
+    --color-muted: #777;
+    --color-muted--light: hsl(192, 17%, 99%);
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.text-muted {
+    color: var(--color-muted);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-primary--light {
+    background-color: var(--color-primary--light);
+}
