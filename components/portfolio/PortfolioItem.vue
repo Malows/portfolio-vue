@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 .portfolio-item {
-  max-width: 400px;
+  width: 100%;
   
   &__link {
     display: grid;
@@ -37,6 +37,7 @@ export default {
       grid-column: 1;
       width: 100%;
       min-height: 0;
+      object-fit: cover;
       z-index: 1;
     }
   }
